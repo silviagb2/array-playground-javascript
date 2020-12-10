@@ -14,7 +14,7 @@ for(let i=0; i<muchos_peces.length; i++) {
     let siguiente_pez = muchos_peces[i]
     console.log("Pez siguiente: " + siguiente_pez)
 
-    if (siguiente_pez==muchos_peces[1]){
+    if (siguiente_pez== "Nemo"){
         console.log("He encontrado a Nemo")
     }
     else {
