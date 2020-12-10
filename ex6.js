@@ -2,12 +2,12 @@
  * Poniéndolo todo junto
  */
 
-function existePez(listaPeces, pezBuscado) {
+function existePez(muchos_peces, pezBuscado) {
     let pezEncontrado = false
     let i = 0
 
-    while(!pezEncontrado && i<listapeces.length-1) {
-        pezEncontrado = (listaPeces[i] == pezBuscado) 
+    while(!pezEncontrado && i<muchos_peces.length-1) {
+        pezEncontrado = (muchos_peces[i] == pezBuscado) 
         i++      
     }
 
